@@ -1,0 +1,155 @@
+body{
+    text-align: justify;
+
+}
+
+.bgholder{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH2qogRgQYyi9yej9oMjLGm1RKDKn9tRVfZ67m0zCowAzXL4c5');
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    z-index: 1;
+}
+.textholder{
+    left: 55px;
+    top: 230px;
+    width: 25%;
+    position: absolute;
+}
+.textholder h3, h2{
+    text-align: justify;
+}
+.aboutSection{
+    display: flex;
+    /* width: 50%; */
+    justify-content: space-around;
+
+}
+.about{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    height: 40px;
+    width: 150px;
+   
+}
+.mainabout{
+    border-bottom: 2px solid black;
+}
+.fee{
+    box-shadow: -10px 10px 30px;
+    border-radius: 10px;
+    z-index: 50;
+    margin-top: -53px;
+    /* top: 374px; */
+    padding: 10px 21px;
+    background: #f4efef;
+    align-self: flex-end;
+    /* left: 968px; */
+    /* position: absolute; */
+    align-items: start;
+    align-content: start;
+    flex-direction: column;
+    display: flex;
+}
+span{
+    margin-left: 5px;
+}
+button{
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 20px;
+    width: 95%;
+    height: 56px;
+    background-color: #5d3cb0;
+    box-shadow: none;
+    cursor: pointer;
+}
+.cotaint{
+    margin: 5px 23px;
+    left: 67px;
+    top: 444px;
+    position: absolute;
+    width: 50%;
+}
+.containt{
+    text-align: justify;
+}
+ul {
+    list-style: none;
+    pad: 0;
+  }
+  
+  ul li:before {
+    content: '✓';
+    margin-right: 10px;
+  }
+  .keytopic{
+    font-weight: 600;
+  }
+  .imgholder{
+    overflow: hidden;
+    height: 112px;
+    width: 350px;
+    border-radius: 50%;
+  }
+  li{
+    margin: 12px 0;
+  }
+  .aboutinstructor{
+    padding: 10px 91px;
+    /* bottom: 50px; */
+    top: 1280px;
+    position: absolute;
+  }
+  .aboutsection{
+    gap: 1rem;
+    display: flex;
+    padding: 10px 52px;
+  }
+  .imgholder img{
+    object-fit: contain;
+    width: 100%;
+  }
+  .socials{
+    display: flex;
+    gap: 9rem;
+    padding: 19px 153px;
+  }
+  .testimonials{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-color: beige;
+    text-align: center;
+  }
+  .testimonials h2{
+    width: 31px;
+    border-radius: 50%;
+    background-color: #cfc7d5;
+    text-align: center;
+  }
+  .texts{
+    width: 54%;
+  }
+  .testimonialHolder{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+  .testimonialHolder img{
+width: 50px;
+border-radius: 50%;
+  }
+  .testimonialHolder p{
+    line-height: 0;
+  }
